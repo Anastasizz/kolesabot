@@ -113,7 +113,7 @@ var interval = setInterval(function(){
 
 function restart(){
 	console.log('restarting........................................');
-	var command = 'curl -n -X DELETE https://api.heroku.com/apps/mykolesaapps1/dynos/web.1  -H "Content-Type: application/json" -H "Accept: application/vnd.heroku+json; version=3" -H "Authorization: Bearer 923e697d-b327-46ab-bdff-409a9805ada6"'
+	var command = 'curl -n -X DELETE https://api.heroku.com/apps/kolesabt/dynos/web.1  -H "Content-Type: application/json" -H "Accept: application/vnd.heroku+json; version=3" -H "Authorization: Bearer 2ee2db9b-b5ef-446b-9aeb-340581a9372c"'
 
 	child = exec(command, function(error, stdout, stderr){
 		//console.log('stdout: ' + stdout);
